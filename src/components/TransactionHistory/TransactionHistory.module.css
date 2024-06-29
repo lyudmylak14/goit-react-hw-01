@@ -1,0 +1,21 @@
+.table {
+  border-collapse: collapse;
+  margin: 30px auto;
+  max-width: 360px;
+  width: 100%;
+  text-align: center;
+}
+
+.tableHeader,
+.tableCell {
+  border: 2px solid #000000;
+}
+
+.tableTitle {
+  color: #fff;
+  background-color: #151515e1;
+}
+
+.row:nth-child(even) {
+  background-color: #cccccc;
+}
